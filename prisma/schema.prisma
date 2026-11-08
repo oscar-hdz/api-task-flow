@@ -23,6 +23,9 @@ model User {
 
   boards Board[]
 
+  mantener_sesion Boolean
+  terminos Boolean
+
   @@map("users")
 }
 
